@@ -13,7 +13,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
       holiday.each do |day, item|
         item << supply
       end
-    endo
+    end
   end
 
 end
